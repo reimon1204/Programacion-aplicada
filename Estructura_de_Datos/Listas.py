@@ -15,10 +15,10 @@ my_lista.insert(3, 'Negro')
 print(my_lista)
 
 
-my_lista.extend(['Marron', 'Turguesa'])   #Concatena a otra lista
+my_lista.extend(['Marron', 'Turquesa'])   #Concatena a otra lista
 print(my_lista)
 
-print(my_lista.index('Azul'))
+print(my_lista.index('Turquesa'))
 
 #my_lista.remove('Magenta')
 my_lista.remove('Marron')
