@@ -15,7 +15,7 @@ my_lista.insert(3, 'Negro')
 print(my_lista)
 
 
-my_lista.extend(['Marron', 'Gris'])   #Concatena a otra lista
+my_lista.extend(['Marron', 'Turguesa'])   #Concatena a otra lista
 print(my_lista)
 
 print(my_lista.index('Azul'))
