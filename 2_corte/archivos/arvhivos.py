@@ -19,4 +19,3 @@ with open("fun_file.txt") as file1:
     print(setup)
     print(punchline)
     print(file1.readline())
-#Archivo csv=separado por comas.
