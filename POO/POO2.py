@@ -61,16 +61,16 @@ print(Triangulo1.perimetro())
 #Ejercicio 4(triangulo rectangulo)
 class Triangulo2:
     def __init__(self,base,altura):
-        print('Nuevo Triangulo de base y altura: {b}, {a}'.format(b=base, a=altura))
+        print('Nuevo Triangulo rectangulo de base y altura: {b}, {a}'.format(b=base, a=altura))
         self.base=base
         self.altura=altura
     def area(self):
         self.area= (self.base*self.altura)/2
-        return print('Area del triangulo: ', self.area)
+        return print('Area del triangulo rectangulo: ', self.area)
     def perimetro(self):
         H= sqrt((self.base)**2+(self.altura)**2)
         self.perimetro=self.base+self.altura+H
-        return print('Perimetro del triangulo: ', self.perimetro)
+        return print('Perimetro del triangulo rectangulo: ', self.perimetro)
 Piramide2=Triangulo2(4,2)
 Triangulo2=Triangulo2(7,10)
 print(Piramide2.area())
