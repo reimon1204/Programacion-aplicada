@@ -65,12 +65,18 @@ class Triangulo2:
         self.base=base
         self.altura=altura
     def area(self):
-        S=(self.lado1+self.lado2+self.lado3)/2
-        self.area= sqrt(S*(S-self.lado1)*(S-self.lado2)*(S-self.lado3))
-        return print('Area del triangulo: ', self.area, S)
+        self.area= (self.base*self.altura)/2
+        return print('Area del triangulo: ', self.area)
     def perimetro(self):
-        self.perimetro=self.lado1+self.lado2+self.lado3
+        H= sqrt((self.base)**2+(self.altura)**2)
+        self.perimetro=self.base+self.altura+H
         return print('Perimetro del triangulo: ', self.perimetro)
+Piramide2=Triangulo2(4,2)
+Triangulo2=Triangulo2(7,10)
+print(Piramide2.area())
+print(Triangulo2.area())
+print(Piramide2.perimetro())
+print(Triangulo2.perimetro())
 #Ejercicio 5
 class Rectangulo:
     def __init__(self, largo, ancho):
